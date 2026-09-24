@@ -2,6 +2,7 @@ import smtplib
 import logging
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.utils import formatdate, make_msgid  # <-- YENİ EKLENDİ
 from typing import List, Dict
 
 from config import SMTP_CONFIG
@@ -107,9 +108,6 @@ def send_announcement_email(
     announcements: List[Dict[str, str]], 
     recipients: List[str]
 ) -> bool:
-    """
-    Yeni duyuruları ilgili alıcılara SMTP üzerinden gönderir.
-    """
     if not announcements:
         logging.info("Gönderilecek duyuru bulunamadı.")
         return False
@@ -124,7 +122,7 @@ def send_announcement_email(
     password = SMTP_CONFIG["password"]
 
     if not user or not password:
-        logging.error("SMTP_USER veya SMTP_PASSWORD tanımlı değil! .env dosyasını kontrol et.")
+        logging.error("SMTP_USER veya SMTP_PASSWORD tanımlı değil!")
         return False
 
     subject = f"KTÜ {department_name.title()} - {len(announcements)} Yeni Duyuru"
@@ -134,6 +132,9 @@ def send_announcement_email(
     message["Subject"] = subject
     message["From"] = f"KTÜ Duyuru Takipçisi <{user}>"
     message["To"] = ", ".join(recipients)
+    message["Reply-To"] = user
+    message["Date"] = formatdate(localtime=True)  # <-- E-postanın resmi tarih damgası
+    message["Message-ID"] = make_msgid(domain="ktu.edu.tr")  # <-- RFC uyumlu benzersiz kimlik
 
     message.attach(MIMEText(plain_text, "plain", "utf-8"))
     message.attach(MIMEText(html_body, "html", "utf-8"))
@@ -152,7 +153,6 @@ def send_announcement_email(
     except Exception as e:
         logging.error(f"E-posta gönderilirken hata oluştu: {e}")
         return False
-
 
 if __name__ == "__main__":
     # Test çalıştırması: Sahte bir duyuru ile mail fonksiyonunu test edelim
