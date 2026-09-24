@@ -36,9 +36,8 @@ def check_for_new_announcements(
 ) -> Tuple[List[Dict[str, str]], bool]:
     """
     Mevcut duyuruları kayıtlı olanlarla karşılaştırır.
-    
-    Dönüş:
-        (new_announcements, is_first_run)
+    Duyurular en yeniden eskiye geldiği için, daha önce görülen ilk linke
+    rastlandığı an tarama durdurulur (break).
     """
     storage = load_storage()
     dept_data = storage.get(department_key)
@@ -54,10 +53,11 @@ def check_for_new_announcements(
     seen_links = set(dept_data.get("seen_links", []))
     new_announcements = []
 
-    # 2. Senaryo: Sitedeki duyuruları tara, daha önce görülmemiş olanları listele
+    # 2. Senaryo: En baştan tara, daha önce görülen ilk linke çarptığın an DUR!
     for item in current_announcements:
-        if item["link"] not in seen_links:
-            new_announcements.append(item)
+        if item["link"] in seen_links:
+            break
+        new_announcements.append(item)
 
     return new_announcements, False
 
@@ -70,20 +70,16 @@ def update_storage(department_key: str, current_announcements: List[Dict[str, st
     dept_data = storage.get(department_key, {"seen_links": []})
 
     existing_seen = dept_data.get("seen_links", [])
-    
-    # Mevcut çekilen duyuru linklerini ekle
     current_links = [item["link"] for item in current_announcements]
-    
-    # Sırayı koruyarak tekilleştir (en yeni olanlar başta kalacak şekilde)
+
+    # Sırayı koruyarak tekilleştir
     combined_links = []
     for link in current_links + existing_seen:
         if link not in combined_links:
             combined_links.append(link)
 
-    # Dosyanın sonsuza kadar büyümemesi için son 40 linki sakla
+    # En fazla son 40 linki sakla
     updated_seen = combined_links[:40]
-
-    # İstediğin gibi her günün en güncel son 3 duyurusunu tam detaylı tut
     last_top_3 = current_announcements[:3]
 
     storage[department_key] = {
@@ -93,23 +89,3 @@ def update_storage(department_key: str, current_announcements: List[Dict[str, st
 
     save_storage(storage)
     logging.info(f"[{department_key}] Storage güncellendi. Son 3 duyuru ve {len(updated_seen)} link kaydedildi.")
-
-
-if __name__ == "__main__":
-    # Test çalıştırması:
-    from scraper import fetch_announcements
-    from config import DEPARTMENTS
-
-    dept_url = DEPARTMENTS["bilgisayar"]["url"]
-    live_data = fetch_announcements(dept_url)
-
-    new_items, is_first = check_for_new_announcements("bilgisayar", live_data)
-    print(f"\nİlk çalıştırma mı? {is_first}")
-    print(f"Yeni duyuru sayısı: {len(new_items)}")
-
-    # Storage'a kaydet
-    update_storage("bilgisayar", live_data)
-
-    # İkinci kez kontrol ettiğimizde 0 yeni duyuru vermeli (test doğrulaması)
-    second_check, _ = check_for_new_announcements("bilgisayar", live_data)
-    print(f"İkinci kontrol (0 beklenir): {len(second_check)} yeni duyuru.")
