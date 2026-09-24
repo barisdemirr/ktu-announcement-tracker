@@ -12,4 +12,4 @@ __pycache__/
 *.pyc
 
 # Local Data Storage
-seen_announcements.json
+storage.json
