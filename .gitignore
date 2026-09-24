@@ -2,7 +2,6 @@
 venv/
 .venv/
 env/
-.env.example
 
 # Environment Variables
 .env
@@ -10,6 +9,3 @@ env/
 # Cache
 __pycache__/
 *.pyc
-
-# Local Data Storage
-storage.json

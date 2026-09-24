@@ -1,0 +1,47 @@
+name: KTU Announcement Daily Tracker
+
+on:
+  schedule:
+    # Her gün Türkiye saatiyle 18:43 (UTC 15:43)
+    - cron: '43 15 * * *'
+  workflow_dispatch: # İstediğinde GitHub panelinden "Run workflow" butonuyla elle de çalıştırabilmen için
+
+jobs:
+  track-and-notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Announcement Tracker
+        env:
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          KTU_BASE_URL: ${{ secrets.KTU_BASE_URL }}
+          DEPT_BILGISAYAR_URL: ${{ secrets.DEPT_BILGISAYAR_URL }}
+          EMAILS_BILGISAYAR: ${{ secrets.EMAILS_BILGISAYAR }}
+        run: |
+          python main.py
+
+      - name: Commit & Push Storage Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add storage.json
+          # Değişiklik yoksa commit atmayıp devam eder (exit 0)
+          git commit -m "chore(storage): update announcement state [skip ci]" || exit 0
+          git push
