@@ -128,13 +128,14 @@ def send_announcement_email(
     subject = f"KTÜ {department_name.title()} - {len(announcements)} Yeni Duyuru"
     plain_text, html_body = build_email_content(department_name, announcements)
 
+    # --- DEĞİŞEN KISIM BURASI ---
     message = MIMEMultipart("alternative")
     message["Subject"] = subject
-    message["From"] = f"KTÜ Duyuru Takipçisi <{user}>"
-    message["To"] = ", ".join(recipients)
+    message["From"] = f"KTÜ Bilgisayar Duyuru <{user}>"
+    message["To"] = f"KTÜ Öğrencileri <{user}>"  # Alıcıların hepsi yerine tek bir genel başlık görünecek
     message["Reply-To"] = user
-    message["Date"] = formatdate(localtime=True)  # <-- E-postanın resmi tarih damgası
-    message["Message-ID"] = make_msgid(domain="ktu.edu.tr")  # <-- RFC uyumlu benzersiz kimlik
+    message["Date"] = formatdate(localtime=True)
+    message["Message-ID"] = make_msgid(domain="ktu.edu.tr")
 
     message.attach(MIMEText(plain_text, "plain", "utf-8"))
     message.attach(MIMEText(html_body, "html", "utf-8"))
@@ -146,14 +147,17 @@ def send_announcement_email(
             server.starttls()
             server.ehlo()
             server.login(user, password)
+            # SMTP sunucusuna tüm alıcı listesini veriyoruz (herkese ulaştırır)
+            # Ama mailin 'To' başlığında sadece yukarıdaki adres göründüğü için BCC gibi davranır
             server.sendmail(user, recipients, message.as_string())
 
-        logging.info(f"Mail başarıyla gönderildi: {recipients}")
+        logging.info(f"Mail başarıyla gönderildi ({len(recipients)} alıcı).")
         return True
     except Exception as e:
         logging.error(f"E-posta gönderilirken hata oluştu: {e}")
         return False
-
+    
+    
 if __name__ == "__main__":
     # Test çalıştırması: Sahte bir duyuru ile mail fonksiyonunu test edelim
     from config import DEPARTMENTS
