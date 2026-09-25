@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-ml",
+        "title": "Ders programı güncellenmiştir",
+        "date": "25 Eylül",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-ml",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-dersi-hakkinda",
         "title": "Matematik-I Dersi Hakkında!",
         "date": "22 Eylül",
@@ -14,16 +21,10 @@
         "date": "22 Eylül",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/ayrik-matematik-ve-yapay-zeka-dersleri-hakkinda",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-laboratuvari-yariyil-plani-hakkinda",
-        "title": "Mikroişlemciler Laboratuvarı Yarıyıl Planı Hakkında",
-        "date": "22 Eylül",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-laboratuvari-yariyil-plani-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-ml",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-dersi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/ayrik-matematik-ve-yapay-zeka-dersleri-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-laboratuvari-yariyil-plani-hakkinda",
@@ -41,6 +42,7 @@
       "https://www.ktu.edu.tr/oidb/duyuru/2026-2027-egitim-ogretim-yili-guz-yariyili-ders-kayit-islemleri-Zi",
       "https://www.ktu.edu.tr/eee/duyuru/7592-sayili-af-kanunu-basvurusu-hakkinda-duyuru",
       "https://www.ktu.edu.tr/oidb/duyuru/ogrenci-affi-basvurusu-hakkinda-onemli-duyuru",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-ile-dersi-cakisan-ogrencilerin-bildirmesi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/lisans-ders-programi-ilan-edilmistir-IC",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/5sinif-ve-uzeri-ogrenciler-icin-bil4015-yapay-sinir-aglari-dersi-acilmayacaktir"
     ]
