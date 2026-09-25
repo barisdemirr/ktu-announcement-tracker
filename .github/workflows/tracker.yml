@@ -2,16 +2,10 @@ name: KTU Announcement Daily Tracker
 
 on:
   schedule:
-    # Hafta içi (Pazartesi-Cuma): 07:38 TRT (04:38 UTC)
-    - cron: '38 4 * * 1-5'
-    # Hafta içi (Pazartesi-Cuma): 12:49 TRT (09:49 UTC)
-    - cron: '49 9 * * 1-5'
-    # Hafta içi (Pazartesi-Cuma): 17:41 TRT (14:41 UTC)
-    - cron: '41 14 * * 1-5'
-    # Hafta sonu (Cumartesi-Pazar): 17:41 TRT (14:41 UTC)
-    - cron: '41 14 * * 0,6'
+    # 7 gün 24 saat, her 3 saatte bir çalışır (Örn: 00:19, 03:19, 06:19, 09:19...)
+    - cron: '19 */3 * * *'
 
-  workflow_dispatch: # İstediğinde GitHub web arayüzünden tek tıkla test edebilmek için
+  workflow_dispatch: # Manuel çalıştırma butonu
 
 jobs:
   track-and-notify:
