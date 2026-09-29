@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
+        "title": "Ders Programı Güncellenmiştir",
+        "date": "29 Eylül",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-yariyil-plani-ilan-edilmistir-FD",
         "title": "Elektronik Lab. Yarıyıl Planı İlan Edilmiştir",
         "date": "28 Eylül",
@@ -14,16 +21,10 @@
         "date": "25 Eylül",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-ml",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-dersi-hakkinda",
-        "title": "Matematik-I Dersi Hakkında!",
-        "date": "22 Eylül",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-dersi-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-yariyil-plani-ilan-edilmistir-FD",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-ml",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-dersi-hakkinda",
