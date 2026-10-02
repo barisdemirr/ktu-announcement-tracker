@@ -2,28 +2,30 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
+        "title": "MHN4001 - Çok Disiplinli Mühendislik Uygulamaları Dersini Alan Öğrenciler Hakkında",
+        "date": "02 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/donanim-tanimlama-dilleri-proje-odevi-cv",
+        "title": "Donanım Tanımlama Dilleri Proje Ödevi",
+        "date": "02 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/donanim-tanimlama-dilleri-proje-odevi-cv",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/muhendislik-tasarimi-bitirme-calismasi-danisman-atamalari-ve-proje-plani-teslimi-hakkinda-Z5",
         "title": "Mühendislik Tasarımı-Bitirme Çalışması Danışman Atamaları ve Proje Planı Teslimi Hakkında",
         "date": "30 Eylül",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/muhendislik-tasarimi-bitirme-calismasi-danisman-atamalari-ve-proje-plani-teslimi-hakkinda-Z5",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/fizik-i-dersinin-laboratuvar-programi",
-        "title": "Fizik-I Dersinin Laboratuvar Programı",
-        "date": "30 Eylül",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/fizik-i-dersinin-laboratuvar-programi",
-        "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
-        "title": "Ders Programı Güncellenmiştir",
-        "date": "29 Eylül",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/donanim-tanimlama-dilleri-proje-odevi-cv",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/muhendislik-tasarimi-bitirme-calismasi-danisman-atamalari-ve-proje-plani-teslimi-hakkinda-Z5",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/fizik-i-dersinin-laboratuvar-programi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/ders-programi-guncellenmistir-BJ",
