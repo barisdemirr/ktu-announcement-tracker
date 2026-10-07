@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
+        "title": "Siber Güvenlik Lab. Yarıyıl Planı",
+        "date": "07 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
         "title": "MHN4001 Çok Disiplinli Mühendislik Uygulamaları Dersi Grupları",
         "date": "06 Ekim",
@@ -14,16 +21,10 @@
         "date": "06 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
-        "title": "MHN4001 - Çok Disiplinli Mühendislik Uygulamaları Dersini Alan Öğrenciler Hakkında",
-        "date": "02 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
