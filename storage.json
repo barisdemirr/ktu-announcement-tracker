@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-labi-turev-ve-integral-alici-devreler-deneyi-foyu-hakkinda",
+        "title": "Elektronik Labı Türev ve İntegral Alıcı Devreler deneyi föyü hakkında",
+        "date": "08 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-labi-turev-ve-integral-alici-devreler-deneyi-foyu-hakkinda",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
         "title": "Siber Güvenlik Lab. Yarıyıl Planı",
         "date": "07 Ekim",
@@ -14,16 +21,10 @@
         "date": "06 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
-        "title": "Mikroişlemci Laboratuvarı Yarıyıl Planı",
-        "date": "06 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-labi-turev-ve-integral-alici-devreler-deneyi-foyu-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
