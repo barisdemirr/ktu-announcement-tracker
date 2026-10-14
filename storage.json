@@ -2,28 +2,31 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/hazirlik-ve-birinci-sinif-ogrencilerin-dikkatine",
-        "title": "Hazırlık ve Birinci Sınıf Öğrencilerin Dikkatine",
-        "date": "13 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/hazirlik-ve-birinci-sinif-ogrencilerin-dikkatine",
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
+        "title": "Mikroişlemciler Lab. Beklemeli Çalışma ve Zaman Sınırlı İşler Deneyi Ertelenmesi Hakkında",
+        "date": "14 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
         "department": "Bilgisayar Mühendisliği"
       },
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/programming-i-a-dersi-hakkinda",
-        "title": "Programming - I - A Dersi Hakkında",
-        "date": "12 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/programming-i-a-dersi-hakkinda",
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
+        "title": "Staj Mail İşlemleri Hakkında Duyuru",
+        "date": "14 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
         "department": "Bilgisayar Mühendisliği"
       },
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mesleki-ingilizce-dersi-odevleri-hakkinda-duyurular",
-        "title": "Mesleki İngilizce Dersi Ödevleri Hakkında Duyurular",
-        "date": "12 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mesleki-ingilizce-dersi-odevleri-hakkinda-duyurular",
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
+        "title": "Hayat Başarısı İçin Liderlik",
+        "date": "14 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
         "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/hazirlik-ve-birinci-sinif-ogrencilerin-dikkatine",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/programming-i-a-dersi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mesleki-ingilizce-dersi-odevleri-hakkinda-duyurular",
