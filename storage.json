@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
+        "title": "Mezun - Öğrenci Buluşması",
+        "date": "16 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
         "title": "Mikroişlemciler Lab. Beklemeli Çalışma ve Zaman Sınırlı İşler Deneyi Ertelenmesi Hakkında",
         "date": "14 Ekim",
@@ -14,16 +21,10 @@
         "date": "14 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
-        "title": "Hayat Başarısı İçin Liderlik",
-        "date": "14 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
