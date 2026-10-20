@@ -2,28 +2,31 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
-        "title": "Mezun - Öğrenci Buluşması",
-        "date": "16 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
+        "title": "Üniversitemiz Öğrencilerine Yönelik IBM ve Kodluyoruz Eğitim Programlarına Başvurular Başladı",
+        "date": "20 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
         "department": "Bilgisayar Mühendisliği"
       },
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
-        "title": "Mikroişlemciler Lab. Beklemeli Çalışma ve Zaman Sınırlı İşler Deneyi Ertelenmesi Hakkında",
-        "date": "14 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
+        "id": "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
+        "title": "Lisansüstü sınav programı ilan edilmiştir",
+        "date": "20 Ekim",
+        "link": "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
+        "department": "Bilgisayar Mühendisliği Anabilim Dalı"
       },
       {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
-        "title": "Staj Mail İşlemleri Hakkında Duyuru",
-        "date": "14 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
+        "title": "MHN4001 Çok Disiplinli Mühendislik Uygulamaları Dersi Grupları",
+        "date": "06 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
         "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
+      "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
@@ -33,7 +36,6 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mesleki-ingilizce-dersi-odevleri-hakkinda-duyurular",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-labi-turev-ve-integral-alici-devreler-deneyi-foyu-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-lab-yariyil-plani",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemcilaboratuvari-yariyil-plani",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersini-alan-ogrenciler-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/donanim-tanimlama-dilleri-proje-odevi-cv",
