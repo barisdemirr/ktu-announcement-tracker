@@ -2,8 +2,15 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
+        "title": "2026/2027 Güz Yarıyılı Arasınav, Final ve Bütünleme Programları Hakkında",
+        "date": "30 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
-        "title": "Bilgisayar Güvenliğinin Temelleri dersi ödevi hakkında!",
+        "title": "Bilgisayar Güvenliğinin Temelleri Dersi Ödevi Hakkında!",
         "date": "30 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
         "department": "Bilgisayar Mühendisliği"
@@ -14,16 +21,10 @@
         "date": "30 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
-        "title": "Siber Vatan Programı 2027 Başvuruları",
-        "date": "23 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
@@ -62,8 +63,7 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-ii-kontenjan-artirimi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-kontenjan-artirimi-hakkinda",
       "https://www.ktu.edu.tr/oidb/duyuru/2026-2027-egitim-ogretim-yili-guz-yariyili-ders-kayit-islemleri-Zi",
-      "https://www.ktu.edu.tr/eee/duyuru/7592-sayili-af-kanunu-basvurusu-hakkinda-duyuru",
-      "https://www.ktu.edu.tr/oidb/duyuru/ogrenci-affi-basvurusu-hakkinda-onemli-duyuru"
+      "https://www.ktu.edu.tr/eee/duyuru/7592-sayili-af-kanunu-basvurusu-hakkinda-duyuru"
     ]
   }
 }
