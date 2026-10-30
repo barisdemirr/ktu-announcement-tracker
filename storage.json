@@ -2,28 +2,30 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
+        "title": "Bilgisayar Güvenliğinin Temelleri dersi ödevi hakkında!",
+        "date": "30 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
+        "title": "Elektronik Lab. İşlemsel Yükselteçler Deneyi Ertelenmesi",
+        "date": "30 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
         "title": "Siber Vatan Programı 2027 Başvuruları",
         "date": "23 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
-        "title": "Üniversitemiz Öğrencilerine Yönelik IBM ve Kodluyoruz Eğitim Programlarına Başvurular Başladı",
-        "date": "20 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
-        "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
-        "title": "Lisansüstü Sınav Programı İlan Edilmiştir",
-        "date": "20 Ekim",
-        "link": "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
-        "department": "Bilgisayar Mühendisliği Anabilim Dalı"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-vatan-programi-2027-basvurulari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
       "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
@@ -61,9 +63,7 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-kontenjan-artirimi-hakkinda",
       "https://www.ktu.edu.tr/oidb/duyuru/2026-2027-egitim-ogretim-yili-guz-yariyili-ders-kayit-islemleri-Zi",
       "https://www.ktu.edu.tr/eee/duyuru/7592-sayili-af-kanunu-basvurusu-hakkinda-duyuru",
-      "https://www.ktu.edu.tr/oidb/duyuru/ogrenci-affi-basvurusu-hakkinda-onemli-duyuru",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/matematik-i-ile-dersi-cakisan-ogrencilerin-bildirmesi-hakkinda",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/lisans-ders-programi-ilan-edilmistir-IC"
+      "https://www.ktu.edu.tr/oidb/duyuru/ogrenci-affi-basvurusu-hakkinda-onemli-duyuru"
     ]
   }
 }
