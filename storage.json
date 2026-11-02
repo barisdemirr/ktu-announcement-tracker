@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
+        "title": "Mezun - Öğrenci Buluşması",
+        "date": "16 Ekim",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
         "title": "2026/2027 Güz Yarıyılı Arasınav, Final ve Bütünleme Programları Hakkında",
         "date": "30 Ekim",
@@ -14,16 +21,10 @@
         "date": "30 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
-        "title": "Elektronik Lab. İşlemsel Yükselteçler Deneyi Ertelenmesi",
-        "date": "30 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/elektronik-lab-islemsel-yukseltecler-deneyi-ertelenmesi",
@@ -31,7 +32,6 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/universitemiz-ogrencilerine-yonelik-ibm-ve-kodluyoruz-egitim-programlarina-basvurular-basladi",
       "https://www.ktu.edu.tr/fbebilgisayar/duyuru/lisansustu-sinav-programi-ilan-edilmistir",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mhn4001-cok-disiplinli-muhendislik-uygulamalari-dersi-gruplari",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mikroislemciler-lab-beklemeli-calisma-ve-zaman-sinirli-isler-deneyi-ertelenmesi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/staj-mail-islemleri-hakkinda-duyuru",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/hayat-basarisi-icin-liderlik",
