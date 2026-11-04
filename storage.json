@@ -2,28 +2,30 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-laboratuvari-oturumlari-hakkinda",
+        "title": "Siber Güvenlik Laboratuvarı Oturumları Hakkında",
+        "date": "04 Kasım",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-laboratuvari-oturumlari-hakkinda",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
+        "title": "Çok Disiplinli Mühendislik Uygulamaları Dersine Şimdiye Kadar Katılmayan Öğrenciler",
+        "date": "04 Kasım",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
         "title": "Mezun - Öğrenci Buluşması",
         "date": "16 Ekim",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
-        "title": "2026/2027 Güz Yarıyılı Arasınav, Final ve Bütünleme Programları Hakkında",
-        "date": "30 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
-        "title": "Bilgisayar Güvenliğinin Temelleri Dersi Ödevi Hakkında!",
-        "date": "30 Ekim",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-laboratuvari-oturumlari-hakkinda",
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/mezun-ogrenci-bulusmasi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-2027-guz-yariyili-arasinav-final-ve-butunleme-programlari-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/bilgisayar-guvenliginin-temelleri-dersi-odevi-hakkinda",
@@ -61,9 +63,7 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/5sinif-ve-uzeri-ogrenciler-icin-4sinif-bilgisayar-lab-secmeli-secimi",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/system-programming-dersi-acilmayacaktir",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-ii-kontenjan-artirimi-hakkinda",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-kontenjan-artirimi-hakkinda",
-      "https://www.ktu.edu.tr/oidb/duyuru/2026-2027-egitim-ogretim-yili-guz-yariyili-ders-kayit-islemleri-Zi",
-      "https://www.ktu.edu.tr/eee/duyuru/7592-sayili-af-kanunu-basvurusu-hakkinda-duyuru"
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-kontenjan-artirimi-hakkinda"
     ]
   }
 }
