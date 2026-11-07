@@ -2,6 +2,13 @@
   "bilgisayar": {
     "last_top_announcements": [
       {
+        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-yaz-stajlari-mulakatlari",
+        "title": "2026 Yaz Stajları Mülakatları",
+        "date": "07 Kasım",
+        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-yaz-stajlari-mulakatlari",
+        "department": "Bilgisayar Mühendisliği"
+      },
+      {
         "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/sinav-haftasi-calisma-alani-kullanimi-hakkinda",
         "title": "Sınav Haftası Çalışma Alanı Kullanımı Hakkında",
         "date": "06 Kasım",
@@ -14,16 +21,10 @@
         "date": "04 Kasım",
         "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-laboratuvari-oturumlari-hakkinda",
         "department": "Bilgisayar Mühendisliği"
-      },
-      {
-        "id": "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
-        "title": "Çok Disiplinli Mühendislik Uygulamaları Dersine Şimdiye Kadar Katılmayan Öğrenciler",
-        "date": "04 Kasım",
-        "link": "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
-        "department": "Bilgisayar Mühendisliği"
       }
     ],
     "seen_links": [
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/2026-yaz-stajlari-mulakatlari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/sinav-haftasi-calisma-alani-kullanimi-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/siber-guvenlik-laboratuvari-oturumlari-hakkinda",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/cok-disiplinli-muhendislik-uygulamalari-dersine-simdiye-kadar-katilmayan-ogrenciler",
@@ -62,8 +63,7 @@
       "https://www.ktu.edu.tr/bilgisayar/duyuru/4sinif-teknik-secmelilerde-acik-olan-dersler",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/lift-up-sanayi-odakli-lisans-bitirme-projeleri-basvurulari",
       "https://www.ktu.edu.tr/bilgisayar/duyuru/5sinif-ve-uzeri-ogrenciler-icin-4sinif-bilgisayar-lab-secmeli-secimi",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/system-programming-dersi-acilmayacaktir",
-      "https://www.ktu.edu.tr/bilgisayar/duyuru/4-sinif-teknik-secmeli-dersler-ii-kontenjan-artirimi-hakkinda"
+      "https://www.ktu.edu.tr/bilgisayar/duyuru/system-programming-dersi-acilmayacaktir"
     ]
   }
 }
